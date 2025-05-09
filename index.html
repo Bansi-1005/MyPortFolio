@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Bansi Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+          Bansi <span>Tejani</span>
+        </div>
+        <div class="links">
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="100"
+          >
+            <a href="index.html">Home</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="200"
+          >
+            <a href="#about">About</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="300"
+          >
+            <a href="#skills">Skills</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="400"
+          >
+            <a href="#services">Services</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="500"
+          >
+            <a href="#projects">Projects</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="600"
+          >
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+      </div>
+      <div class="dropdown">
+        <div class="links">
+          <a href="index.html">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+          <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+      <div class="main-container">
+        <div class="image">
+          <img
+            src="img/bansi.jpg"
+            alt="profilepic"
+            width="500"
+            height="600"
+            data-aos="zoom-out"
+            data-aos-duration="3000"
+          />
+        </div>
+        <div class="content">
+          <h1
+            data-aos="fade-left"
+            data-aos-duration="1500"
+            data-aos-delay="700"
+          >
+            Hello.. I'm <span>Bansi</span>
+          </h1>
+          <div
+            class="typewriter"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-delay="900"
+          >
+            I'm a <span class="typewriter-text"></span>|
+          </div>
+          <p
+            data-aos="flip-down"
+            data-aos-duration="1500"
+            data-aos-delay="1100"
+          >
+            an enthusiastic IT student passionate about web development and
+            software engineering. I love building real-world digital solutions
+            and aim to become a Full Stack Developer.
+          </p>
+          <div class="social-links">
+            <a
+              href="#"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1300"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="#"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1400"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a
+              href="#"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1500"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a
+              href="#"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1600"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+          <div
+            class="btn"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            data-aos-delay="1800"
+          >
+            <button>Hire me</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="aboutme">
+        <div class="about-container">
+          <h2>About Me</h2>
+          <p>
+            I'm Bansi, a passionate IT student with a love for web development,
+            software engineering, and problem-solving. I enjoy transforming
+            ideas into real digital solutions through clean and efficient code.
+            Currently, I'm pursuing my degree in Information Technology, where
+            I've gained experience in web design, databases, and mobile app
+            development. I’m always eager to learn new technologies and take on
+            challenging projects. My goal is to become a skilled Full Stack
+            Developer who builds impactful and user-friendly applications. I'm
+            excited about shaping the digital future, one project at a time.
+          </p>
+          <a href="#skills">Read more</a>
+        </div>
+        <div class="about-img">
+          <img
+            src="img/bansi.jpg"
+            alt="profilepic"
+            width="400"
+            height="400"
+            data-aos="zoom-out"
+            data-aos-duration="3000"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>My Skills</h2>
+      <h4>Frontend Skills</h4>
+      <div class="skill-container">
+        <div class="skill">
+          <i class="fa-brands fa-html5"></i>
+          <p>HTML</p>
+        </div>
+        <div class="skill">
+          <i class="fa-brands fa-css3-alt"></i>
+          <p>CSS</p>
+        </div>
+        <div class="skill">
+          <i class="fa-brands fa-js"></i>
+          <p>JavaScript</p>
+        </div>
+        <div class="skill">
+          <i class="fa-brands fa-bootstrap"></i>
+          <p>Bootstrap</p>
+        </div>
+      </div>
+
+      <h4>Backend Skills</h4>
+      <div class="skill-container">
+        <div class="skill">
+          <i class="fa-solid fa-code"></i>
+          <p>C/C++</p>
+        </div>
+        <div class="skill">
+          <i class="fa-brands fa-php"></i>
+          <p>PHP</p>
+        </div>
+        <div class="skill">
+          <i class="fa-brands fa-java"></i>
+          <p>Java</p>
+        </div>
+        <div class="skill">
+          <i class="fa-solid fa-code"></i>
+          <p>C#</p>
+        </div>
+        <div class="skill">
+          <i class="fab fa-android"></i>
+          <p>Kotlin</p>
+        </div>
+        <div class="skill">
+          <i class="fa-solid fa-database"></i>
+          <p>MySQL</p>
+        </div>
+        <div class="skill">
+          <i class="fa-solid fa-database"></i>
+          <p>PL/SQL</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+      <h2>My Services</h2>
+      <div class="service-container">
+        <div class="service">
+          <i class="fa-solid fa-laptop-code"></i>
+          <h3>Web Development</h3>
+          <p>
+            Crafting responsive, user-friendly websites tailored to your needs.
+            I specialize in creating modern, high-performance websites using the
+            latest technologies and design trends to ensure your online presence
+            stands out.
+          </p>
+        </div>
+        <div class="service">
+          <i class="fa-solid fa-mobile-alt"></i>
+          <h3>Mobile App Development</h3>
+          <p>
+            Building intuitive mobile apps that provide seamless user
+            experiences. I focus on creating both native and cross-platform
+            applications that are efficient, scalable, and easy to navigate.
+          </p>
+        </div>
+        <div class="service">
+          <i class="fa-solid fa-database"></i>
+          <h3>Database Management</h3>
+          <p>
+            Designing robust and scalable databases for optimal performance. I
+            ensure your data is well-organized, secure, and accessible, with a
+            focus on efficiency and long-term scalability for your business
+            needs.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="project-container">
+        <div class="project">
+          <img src="img/hotels.png" />
+          <h3>Hotel Management System</h3>
+          <p>
+            An online platform developed using PHP to manage hospital workflows
+            such as patient registration, doctor scheduling, appointment
+            booking, and medical record tracking with a responsive frontend
+            using HTML, CSS, and JavaScript.
+          </p>
+          <!-- <div class="project-overlay">
+            <a href="#" target="_blank">
+              <i class="fa-solid fa-up-right-from-square"></i>
+            </a>
+          </div> -->
+        </div>
+        <div class="project">
+          <img src="img/clock.png" />
+          <h3>Analog Clock</h3>
+          <p>
+            A real-time analog clock built using HTML for structure, CSS for
+            design, and JavaScript for time functionality, displaying smooth
+            rotating hour, minute, and second hands that sync with the system
+            clock.
+          </p>
+          <!-- <div class="project-overlay">
+            <a
+              href="https://github.com/Bansi-1005/Analog_Clock.git"
+              target="_blank"
+            >
+              <i class="fa-solid fa-up-right-from-square"></i>
+            </a>
+          </div> -->
+        </div>
+        <div class="project">
+          <img src="img/cafe.png" />
+          <h3>Cafe Management System</h3>
+          <p>
+            A web-based application designed to streamline cafe operations,
+            including menu display, order management, cart handling, and secure
+            login for customers and admins, all built using PHP for backend
+            logic and HTML/CSS/JS for the frontend.
+          </p>
+          <!-- <div class="project-overlay">
+            <a href="#" target="_blank">
+              <i class="fa-solid fa-up-right-from-square"></i>
+            </a>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="#" class="contact-form">
+        <input type="text" placeholder="Name" required />
+        <input type="email" placeholder="Email" required />
+        <textarea placeholder="Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <section id="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2025 @bansitejani | All rights Reserved.</p>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ offset: 0 });
+    </script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
